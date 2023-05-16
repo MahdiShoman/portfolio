@@ -1,0 +1,256 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    
+    background-attachment: fixed;
+    background-color:#050213;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+header .logo{
+    text-decoration: none; 
+    color: rgb(199, 199, 199);
+    font-size: larger;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+nav a{
+    text-decoration: none;
+    font-size: medium;
+    font-style: initial;
+    color: #efefef;
+
+    scroll-padding-block-end : 15px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 500;
+    display: inline-block;
+    transition:.5s ease;
+}
+.navication  :hover{
+    background-color:lightseagreen ;
+    color:black ;
+    padding: 10px;
+   
+    text-decoration:dashed;
+   
+    transition: .5s ease;
+}
+
+section {
+    padding: 400px 100px;
+    color:rgb(27, 210, 216);
+
+}
+section .card{
+    padding-bottom: 80px;
+}
+ .main {
+background-image: url(https://cutewallpaper.org/21/cyber-security-wallpaper/55-Cyber-Security-Wallpapers-Download-at-WallpaperBro.jpg) ;
+background-position:center;
+display: flex;
+background-size: cover;
+min-height: 100vh;
+background-attachment: fixed;
+
+
+ } 
+.main img{
+    background-position: right;
+}
+
+.main .h {
+    font-size: xx-large;
+    background-color: #050213;
+    
+    scroll-padding-block-end: 15px;
+    opacity:.8;
+    filter: blur(.5px);
+    -webkit-filter: blur(.5px);
+    
+}
+.main .u{
+    font-size:xx-large ;
+    padding-left: 100px;
+    background-color: #050213;
+    
+    scroll-padding-block-end: 15px;
+    opacity:.8;
+    filter: blur(.5px);
+    -webkit-filter: blur(.5px);
+}
+.main .o {
+    font-size:2em;
+    padding-left: 120px;
+    background-color: #050213;
+    
+    scroll-padding-block-end: 15px;
+    opacity:.8;
+    filter: blur(.5px);
+    -webkit-filter: blur(.5px);
+}
+.main .t{
+    background-color: #050213;
+  
+    scroll-padding-block-end: 15px;
+    opacity:.8;
+    filter: blur(.5px);
+    -webkit-filter: blur(.5px);
+}
+.main .t span{
+    font-size: xx-large;
+    background-color: #050213;
+   
+    scroll-padding-block-end: 15px;
+    opacity:.8;
+    filter: blur(.5px);
+    -webkit-filter: blur(.5px);
+}
+ /*.main#img{
+  display: flex;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position:center ;
+    background:  no-repeat ;
+    opacity:.8;
+    filter: blur(1px);
+    -webkit-filter: blur(1px); 
+    background-position:center;
+display: flex;
+background-size: cover;
+min-height: 100vh;
+background-attachment: fixed;
+background-position: right;
+height: 90px;
+}*/
+    .main .p{
+        padding-left: 160px;
+        background-color: #050213;
+       
+        scroll-padding-block-end: 15px;
+        opacity:.8;
+        filter: blur(.5px);
+        -webkit-filter: blur(.5px);
+    }
+    .title{
+        display: flex;
+        justify-content: center;
+        font-size: xx-large;
+        margin-bottom:30px ;
+    }
+    .contant{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+
+    }
+    .card{
+        color: #efefef;
+        width: 30%;
+        background-color: #1c31aa;
+        box-shadow: 0 6px 26px #050213;
+        border-radius: 15px;
+        padding: 25px;
+        margin: 15px;
+        display: flex;
+        justify-content: center;
+        transition: .5s ease;
+
+    }
+    .cs{
+        color: #efefef;
+    }
+    .cs :hover{
+        
+        
+        transform: scale(1.1);
+
+
+    }
+    
+    .icon {
+        color: #efefef;
+        font-size: 120px;
+        display: flex;
+        justify-content: center;
+    }
+    .cards {
+        text-align: center;
+    }
+    .name {
+       font-size: larger;
+       font-weight: 400;
+       margin:20px;  
+       
+    }
+    .title{
+    }
+   .gg {
+        color: #efefef;
+    }
+     img{
+       
+        padding-left:20px ;
+        margin-left: 600px; 
+        
+        display: inline-block;
+         position: relative; 
+        
+         height: 300px; 
+        overflow: hidden;
+         border-radius: 50%; 
+        
+        
+    } 
+    .Achievements{
+        background-color: #050213;
+    }
+    
+    .pargraph{
+        margin:10px;
+        font-size: large;
+        padding-left: 10px;
+
+    }
+    .Achievements  .hha {
+        margin: 10px;
+        margin-bottom: 20px;  
+    }
+    .Achievements  h2{
+
+        display: flex;
+        justify-content: center;
+        margin-bottom :40px;
+        font-size: xx-large;
+    }
+    @media (max-width:1023px){
+   .navication  a{
+       padding-right:100px;
+        
+           
+        }
+         header .logo{
+           
+    }
+    }
